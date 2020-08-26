@@ -8,11 +8,14 @@ def roll_call_dwarves# code an argument here
 end
 
 def summon_captain_planet# code an argument here
-  
+  def summon_captain_planet(planeteer_calls)
+  planeteer_calls.map do |i|
+    i.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
-  # Your code here
+ 
 end
 
 def find_the_cheese# code an argument here
